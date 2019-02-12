@@ -4,3 +4,5 @@ great-idea-website/\.sass-cache/
 great-idea-website/node_modules/
 
 \.vscode/
+
+*.scssc

@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bs": "browser-sync start --server --files '*.html, css/*.css'",
-    "scss": "sass --watch scss/index.scss:css/index.css",
+    "bs": "cd ./great-idea-website/ && browser-sync start --server --files '*.html, css/*.css'",
+    "scss": "cd ./great-idea-website/ && sass --watch scss/index.scss:css/index.css",
     "start": "concurrently \"npm run bs\" \"npm run scss\"",
-    "now-build": "now ./great-idea-website -A ../now.json && now alias"
+    "deploy": "now ./great-idea-website/ -A ../now.json && now alias",
+    "now-build": "npm run deploy"
   },
   "keywords": [],
   "author": "",
