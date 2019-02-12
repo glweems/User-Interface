@@ -7,7 +7,7 @@
     "bs": "browser-sync start --server --files '*.html, css/*.css'",
     "scss": "sass --watch scss/index.scss:css/index.css",
     "start": "concurrently \"npm run bs\" \"npm run scss\"",
-    "now-build": "cd ./great-idea-website/ && now"
+    "now-build": "now ./great-idea-website -A ../now.json && now alias"
   },
   "keywords": [],
   "author": "",
