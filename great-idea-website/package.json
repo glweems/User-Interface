@@ -1,0 +1,19 @@
+{
+  "name": "great-idea-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bs": "browser-sync start --server --files '*.html, css/*.css'",
+    "scss": "sass --watch scss/index.scss:css/index.css",
+    "start": "concurrently \"npm run bs\" \"npm run scss\"",
+    "now-build": "cd ./great-idea-website/ && now"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0"
+  }
+}
