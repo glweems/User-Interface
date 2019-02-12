@@ -146,21 +146,18 @@ h5 {
 
 /* Your code starts here! */
 .navbar {
-  padding-top: 10px; }
+  width: 70%;
+  margin: 10px auto;
+  padding-top: 20px; }
   .navbar nav {
-    vertical-align: center;
-    display: inline-block;
-    margin-left: 62px; }
+    display: inline-block; }
     .navbar nav a {
       margin-right: 32px;
       color: lightgray;
       text-decoration: none;
       font-size: 16px; }
-      .navbar nav a:last-child {
-        margin-right: 60px; }
   .navbar img {
-    padding: 10px;
-    margin-left: 40px; }
+    float: right; }
 
 section {
   padding-top: 50px;

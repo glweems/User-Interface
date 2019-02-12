@@ -91,6 +91,8 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -152,35 +154,25 @@ h5 {
 /* Your code starts here! */
 
 .navbar {
-  padding-top: 10px;
+  width: 70%;
+  margin: 10px auto;
+  padding-top: 20px;
   nav {
-    // margin: 20px 0;
-    vertical-align: center;
     display: inline-block;
-    margin-left: 62px;
     a {
       margin-right: 32px;
       color: lightgray;
       text-decoration: none;
       font-size: 16px;
-      &:last-child {
-        margin-right: 60px;
-      }
     }
   }
   img {
-    padding: 10px;
-    margin-left: 40px;
-    // margin: 20px 0;
-    // padding-top: 20px;
-    // display: inline-block;
-    // margin-left: 300px;
+    float: right;
   }
 }
 
 
 section {
-  // display: inline-block; 
   padding-top: 50px;
   width: 90%;
   margin: 0 auto;
@@ -205,7 +197,6 @@ section {
   }
   img {
     margin-top: -450px;
-    // float: right;
     width: 48%;
     float: right;
 
@@ -215,8 +206,6 @@ section {
 hr {
   width: 90%;
   margin: 30px auto;
-  // background: black;
-  // border-bottom: 1.25px solid black;
 }
 
 .container {
